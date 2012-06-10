@@ -3,3 +3,21 @@ Simple service oriented site which gives easy mechanism to add your tutorial (an
 share it with others
 get it reviewed
 make it favourite
+
+Run Cmd
+mvn clean install
+mvn jetty:run
+
+Tools to Install
+MySQL Server
+http://dev.mysql.com/downloads/
+SQLyog - MySQL client
+http://code.google.com/p/sqlyog/downloads/list
+
+http://localhost:8080/tuiti-rest-service/rest/tutorial/getAll
+
+Need TODO
+Redirect jetty container log to some log4j
+http://docs.codehaus.org/display/JETTY/Maven+Jetty+Plugin
+
+

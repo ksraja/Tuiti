@@ -3,8 +3,8 @@
 		xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
 		version="1.0">
 
-	<persistence-unit name="tutorial" transaction-type="RESOURCE_LOCAL">
-        <class>com.persistent.entity.Tutorial</class>
+	<persistence-unit name="tuiti-pu" transaction-type="RESOURCE_LOCAL">
+        <class>com.tuiti.entity.Tutorial</class>
     </persistence-unit>
 
 </persistence>
